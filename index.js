@@ -48,29 +48,29 @@
 // a**=2 // 9 
 // console.log(a) // 9
 
-let b = 1 + 3 + ' Helo'
-console.log(b) // 4 Hello
-b = 1 + (3 + ' Hello') 
-console.log(b) // 13 Hello
+// let b = 1 + 3 + ' Helo'
+// console.log(b) // 4 Hello
+// b = 1 + (3 + ' Hello') 
+// console.log(b) // 13 Hello
 
-let i = 1
-t = i++ // t = 1; i = 2
-console.log(t) 
-j = ++i // j = 3; i = 3
+// let i = 1
+// t = i++ // t = 1; i = 2
+// console.log(t) 
+// j = ++i // j = 3; i = 3
 
-console.log(j) // j = 3, i = 3  
-console.log('13' != 13)  //false
-console.log('13' !== 13) // true
-let a = [2,3,4]
-let c = [2,3,4]
-console.log(a === c) // false
+// console.log(j) // j = 3, i = 3  
+// console.log('13' != 13)  //false
+// console.log('13' !== 13) // true
+// let a = [2,3,4]
+// let c = [2,3,4]
+// console.log(a === c) // false
 
-let f = [2,3,4]
-let d = f
-console.log( f === d) // true
+// let f = [2,3,4]
+// let d = f
+// console.log( f === d) // true
 
-console.log('1' == true) // true
-console.log('0' == false) // true
+// console.log('1' == true) // true
+// console.log('0' == false) // true
 
 
 let x = {a:1, b:2}
@@ -78,3 +78,9 @@ console.log('a' in x) //true
 let y = [3,4,9]
 console.log('0' in y) // true
 console.log('3' in y) // false
+
+console.log(x instanceof Object) // true
+console.log(x instanceof Array)  // false
+let b = new Date()
+console.log(b instanceof Date)  // true
+console.log(b instanceof Object) // true
