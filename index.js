@@ -68,3 +68,13 @@ console.log(a === c) // false
 let f = [2,3,4]
 let d = f
 console.log( f === d) // true
+
+console.log('1' == true) // true
+console.log('0' == false) // true
+
+
+let x = {a:1, b:2}
+console.log('a' in x) //true
+let y = [3,4,9]
+console.log('0' in y) // true
+console.log('3' in y) // false
